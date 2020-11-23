@@ -1,0 +1,11 @@
+<!-- Try to give color=primary|accent|warn to mat-toolbar and mat-sidenav or no-color. Sidenav will have same palette as toolbar -->
+<mat-toolbar [color]="themeColor">
+	Toolbar
+</mat-toolbar>
+<mat-sidenav-container class="example-container">
+	<mat-sidenav #sidenav mode="side" opened [attr.color]="themeColor">
+		Sidenav content</mat-sidenav>
+	<mat-sidenav-content>
+		<ng-content></ng-content>
+    </mat-sidenav-content>
+</mat-sidenav-container>

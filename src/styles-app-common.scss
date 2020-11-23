@@ -1,0 +1,28 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+.app-loading {
+  .logo {
+    width: 64px;
+    height: 64px;
+    // background: url(./assets/logo.png) center center no-repeat;
+    background-size: cover;
+  }
+}
+
+mat-slider {
+  width: 100%;
+}
+
+mat-divider {
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
+}
+
+.cal-month-view .cal-day-cell.cal-weekend .cal-day-number {
+  color: yellow !important
+}
